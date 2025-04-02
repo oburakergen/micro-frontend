@@ -1,0 +1,32 @@
+{
+  "name": "react-vite-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 3000",
+    "test": "vite test",
+    "eject": "vite eject",
+    "start:dev": "vite --port 3000"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.25.9",
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "crypto-browserify": "^3.12.1",
+    "globals": "^15.14.0",
+    "sass": "^1.85.1",
+    "vite": "^6.1.0",
+    "vite-plugin-env-compatible": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oburakergen/micro-frontend.git"
+  },
+  "private": true
+}
