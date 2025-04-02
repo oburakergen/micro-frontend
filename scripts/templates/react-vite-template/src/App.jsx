@@ -1,9 +1,11 @@
 import React from 'react'
 
-function App() {
+const App = () => {
   return (
-    <>
-      Hello __PACKAGE_NAME__
-    </>
+    <div>
+      <h1>Shell App</h1>
+    </div>
   )
 }
+
+export default App
