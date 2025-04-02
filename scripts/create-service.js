@@ -31,7 +31,6 @@ async function createService() {
       }
     } while (templateChoice !== 'vite' && templateChoice !== 'webpack');
 
-    // Step 2: Get package name
     let packageName;
     do {
       packageName = await promptUser('Enter package name: ');
@@ -41,10 +40,8 @@ async function createService() {
       }
     } while (!helpers.validatePackageName(packageName));
 
-    // Step 3: Find next available port
     const nextPort = await helpers.findNextAvailablePort();
 
-    // Step 4: Copy template and replace placeholders
     const templatePath = `${__dirname}/templates/react-${templateChoice}-template`;
     const targetPath = `${process.cwd()}/workspaces/${packageName}`;
 
@@ -55,13 +52,13 @@ async function createService() {
     await helpers.replacePackageName(targetPath, packageName, nextPort, templateChoice);
 
     helpers.log('-----------------------------------------------', 'cyan');
-    helpers.log(`✅ Successfully created ${packageName} service!`, 'green');
-    helpers.log(`📁 Location: workspaces/${packageName}`, 'green');
-    helpers.log(`🔌 Port: ${nextPort}`, 'green');
-    helpers.log(`🚀 To start development:`, 'yellow');
-    helpers.log(`   cd workspaces/${packageName}`, 'yellow');
-    helpers.log(`   npm install`, 'yellow');
-    helpers.log(`   npm run start:dev`, 'yellow');
+    helpers.log(`Successfully created ${packageName} service!`, 'green');
+    helpers.log(`Location: workspaces/${packageName}`, 'green');
+    helpers.log(`Port: ${nextPort}`, 'green');
+    helpers.log(`To start development:`, 'yellow');
+    helpers.log(`cd workspaces/${packageName}`, 'yellow');
+    helpers.log(`npm install`, 'yellow');
+    helpers.log(`npm run start:dev`, 'yellow');
     helpers.log('-----------------------------------------------', 'cyan');
 
     rl.close();
