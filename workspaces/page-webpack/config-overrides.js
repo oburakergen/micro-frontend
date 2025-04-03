@@ -1,5 +1,5 @@
 const webpack = require('webpack');
-
+const path = require('path');
 module.exports = function override(config) {
   const fallback = config.resolve.fallback || {};
   Object.assign(fallback, {
@@ -19,5 +19,9 @@ module.exports = function override(config) {
       Buffer: ['buffer', 'Buffer']
     })
   ]);
+  config.resolve.alias = {
+    ...config.resolve.alias,
+    'event-bus': path.resolve(__dirname, '../event-bus/src')
+  };
   return config;
 };
