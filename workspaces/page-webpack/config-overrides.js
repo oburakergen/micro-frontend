@@ -23,12 +23,11 @@ module.exports = function override(config) {
       Buffer: ['buffer', 'Buffer']
     })
   ]);
-
-  // Add resolve aliases for problematic modules
+  
   config.resolve.alias = {
     ...config.resolve.alias,
     'event-bus': path.resolve(__dirname, '../event-bus/src')
   };
-
+  
   return config;
 };
