@@ -1,4 +1,3 @@
-// workspaces/page-vite/vite.config.js
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import envCompatible from 'vite-plugin-env-compatible';
@@ -21,7 +20,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      'event-bus': resolve(__dirname, '../event-bus/src')
+      'events-module': resolve(__dirname, '../event-bus/src')
     }
   },
   build: {
@@ -58,7 +57,7 @@ export default defineConfig({
     },
   },
   optimizeDeps: {
-    include: ['react-router-dom'],
+    include: ['react-router-dom', 'events'],
     esbuildOptions: {
       define: {
         global: 'globalThis',

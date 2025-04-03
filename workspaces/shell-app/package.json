@@ -1,14 +1,13 @@
 {
   "name": "shell-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Shell application for micro-frontend architecture",
   "type": "module",
   "scripts": {
     "start": "vite",
     "build": "vite build",
     "preview": "vite preview --port 3000",
     "test": "vite test",
-    "eject": "vite eject",
     "start:dev": "vite --port 3000",
     "eslint": "eslint .",
     "eslint:fix": "eslint --fix"
@@ -16,7 +15,7 @@
   "dependencies": {
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "event-bus": "1.0.0",
+    "events": "^3.3.0",
     "react-router-dom": "6.10.0"
   },
   "devDependencies": {
@@ -29,6 +28,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
+    "path": "^0.12.7",
     "prettier": "^3.5.3",
     "vite": "^6.1.0",
     "vite-plugin-env-compatible": "^2.0.1"

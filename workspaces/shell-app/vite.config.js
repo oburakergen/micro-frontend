@@ -25,7 +25,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      'event-bus': resolve(__dirname, '../event-bus/src'),
+      'events-module': resolve(__dirname, '../event-bus/src'),
       'page-vite': resolve(__dirname, '../page-vite/src'),
       'page-webpack': resolve(__dirname, '../page-webpack/src')
     }
@@ -52,7 +52,7 @@ export default defineConfig({
     },
   },
   optimizeDeps: {
-    include: ['react-router-dom', 'event-bus'],
+    include: ['react-router-dom', 'events'],
     esbuildOptions: {
       define: {
         global: 'globalThis',
