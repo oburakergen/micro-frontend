@@ -17,17 +17,17 @@ services:
       - page-vite
       - page-webpack
 
-  event-bus:
-    build:
-      context: .
-      dockerfile: ./workspaces/event-bus/Dockerfile
-    ports:
-      - "3001:3001"
-    environment:
-      - NODE_ENV=development
-    volumes:
-      - ./workspaces/event-bus:/app
-      - /app/node_modules
+#  event-bus:
+#    build:
+#      context: .
+#      dockerfile: ./workspaces/event-bus/Dockerfile
+#    ports:
+#      - "3001:3001"
+#    environment:
+#      - NODE_ENV=development
+#    volumes:
+#      - ./workspaces/event-bus:/app
+#      - /app/node_modules
 
   page-vite:
     build:
