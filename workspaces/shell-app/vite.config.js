@@ -26,8 +26,7 @@ export default defineConfig({
   resolve: {
     alias: {
       'events-module': resolve(__dirname, '../event-bus/src'),
-      'page-vite': resolve(__dirname, '../page-vite/src'),
-      'page-webpack': resolve(__dirname, '../page-webpack/src')
+      'page-vite': resolve(__dirname, '../page-vite/src')
     }
   },
   build: {

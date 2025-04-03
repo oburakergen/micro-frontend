@@ -1,5 +1,22 @@
 import React, { useEffect } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import { eventBus, EVENT_TYPES } from 'events-module';
+
+const Home = () => (
+  <div>
+    <h2>Page Vite</h2>
+    <p>This is the Vite-powered micro-frontend.</p>
+    <button onClick={() => navigateTo('/page-vite/subpage')}>Go to Subpage</button>
+  </div>
+);
+
+const Subpage = () => (
+  <div>
+    <h2>Vite Subpage</h2>
+    <p>This is a subpage within the Vite micro-frontend.</p>
+    <button onClick={() => navigateTo('/page-vite')}>Back to Vite Home</button>
+  </div>
+);
 
 const navigateTo = path => {
   eventBus.emit(EVENT_TYPES.NAVIGATION_REQUESTED, { path });
@@ -21,7 +38,10 @@ const App = () => {
 
   return (
     <div className="page-vite-container">
-        dsffsdf
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/subpage" element={<Subpage />} />
+      </Routes>
     </div>
   );
 };

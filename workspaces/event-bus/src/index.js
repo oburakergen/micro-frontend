@@ -1,4 +1,3 @@
-// events.js - Core events module using Node.js EventEmitter
 import { EventEmitter } from 'events';
 
 export const EVENT_TYPES = {
@@ -15,25 +14,19 @@ export const EVENT_TYPES = {
   DATA_UPDATED: 'DATA_UPDATED'
 };
 
-// Create a singleton event emitter instance
 class MicroFrontendEventBus extends EventEmitter {
   constructor() {
     super();
-    // Set higher limit for event listeners to avoid memory leak warnings
     this.setMaxListeners(50);
   }
 
-  // Wrapper around the 'on' method for better naming consistency with the old API
   subscribe(eventType, callback) {
     this.on(eventType, callback);
 
-    // Return an unsubscribe function for cleanup
     return () => {
       this.off(eventType, callback);
     };
   }
-
-  // Emit is already provided by EventEmitter
 }
 
 export const eventBus = new MicroFrontendEventBus();
