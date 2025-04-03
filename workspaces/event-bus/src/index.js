@@ -1,3 +1,6 @@
+// events.js - Core events module using Node.js EventEmitter
+import { EventEmitter } from 'events';
+
 export const EVENT_TYPES = {
   NAVIGATION_REQUESTED: 'NAVIGATION_REQUESTED',
   NAVIGATION_COMPLETED: 'NAVIGATION_COMPLETED',
@@ -12,38 +15,28 @@ export const EVENT_TYPES = {
   DATA_UPDATED: 'DATA_UPDATED'
 };
 
-class EventBus {
+// Create a singleton event emitter instance
+class MicroFrontendEventBus extends EventEmitter {
   constructor() {
-    this.subscribers = {};
+    super();
+    // Set higher limit for event listeners to avoid memory leak warnings
+    this.setMaxListeners(50);
   }
 
+  // Wrapper around the 'on' method for better naming consistency with the old API
   subscribe(eventType, callback) {
-    if (!this.subscribers[eventType]) {
-      this.subscribers[eventType] = [];
-    }
-    this.subscribers[eventType].push(callback);
+    this.on(eventType, callback);
 
+    // Return an unsubscribe function for cleanup
     return () => {
-      this.subscribers[eventType] = this.subscribers[eventType].filter(
-        (cb) => cb !== callback
-      );
+      this.off(eventType, callback);
     };
   }
 
-  emit(eventType, payload) {
-    if (this.subscribers[eventType]) {
-      this.subscribers[eventType].forEach((callback) => {
-        try {
-          callback(payload);
-        } catch (err) {
-          console.error(`Error in event handler for ${eventType}:`, err);
-        }
-      });
-    }
-  }
+  // Emit is already provided by EventEmitter
 }
 
-export const eventBus = new EventBus();
+export const eventBus = new MicroFrontendEventBus();
 
 export const createEventStore = (initialState = {}, options = {}) => {
   let state = { ...initialState };

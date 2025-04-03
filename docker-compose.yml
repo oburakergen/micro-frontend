@@ -11,23 +11,12 @@ services:
       - NODE_ENV=development
     volumes:
       - ./workspaces/shell-app:/app
+      - ./workspaces/shared:/app/shared
       - /app/node_modules
     depends_on:
       - event-bus
       - page-vite
       - page-webpack
-
-#  event-bus:
-#    build:
-#      context: .
-#      dockerfile: ./workspaces/event-bus/Dockerfile
-#    ports:
-#      - "3001:3001"
-#    environment:
-#      - NODE_ENV=development
-#    volumes:
-#      - ./workspaces/event-bus:/app
-#      - /app/node_modules
 
   page-vite:
     build:
