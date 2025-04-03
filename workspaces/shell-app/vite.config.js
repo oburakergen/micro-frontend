@@ -1,11 +1,17 @@
+// workspaces/shell-app/vite.config.js
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import envCompatible from 'vite-plugin-env-compatible';
+import { resolve } from 'path';
 
 export default defineConfig({
   server: {
     port: 3000,
     host: true,
+    proxy: {
+      '/page-vite': 'http://localhost:3003',
+      '/page-webpack': 'http://localhost:3004'
+    }
   },
   envPrefix: 'REACT_APP_',
   plugins: [
@@ -16,6 +22,13 @@ export default defineConfig({
     'process.env': process.env,
     global: {},
     'process.browser': true,
+  },
+  resolve: {
+    alias: {
+      'event-bus': resolve(__dirname, '../event-bus/src'),
+      'page-vite': resolve(__dirname, '../page-vite/src'),
+      'page-webpack': resolve(__dirname, '../page-webpack/src')
+    }
   },
   build: {
     outDir: 'build',
@@ -39,6 +52,7 @@ export default defineConfig({
     },
   },
   optimizeDeps: {
+    include: ['react-router-dom', 'event-bus'],
     esbuildOptions: {
       define: {
         global: 'globalThis',

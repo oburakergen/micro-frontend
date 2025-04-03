@@ -1,0 +1,70 @@
+version: '3.8'
+
+services:
+  shell-app:
+    build:
+      context: .
+      dockerfile: ./workspaces/shell-app/Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ./workspaces/shell-app:/app
+      - /app/node_modules
+    depends_on:
+      - event-bus
+      - page-vite
+      - page-webpack
+
+  event-bus:
+    build:
+      context: .
+      dockerfile: ./workspaces/event-bus/Dockerfile
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ./workspaces/event-bus:/app
+      - /app/node_modules
+
+  page-vite:
+    build:
+      context: .
+      dockerfile: ./workspaces/page-vite/Dockerfile
+    ports:
+      - "3003:3003"
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ./workspaces/page-vite:/app
+      - /app/node_modules
+    depends_on:
+      - event-bus
+
+  page-webpack:
+    build:
+      context: .
+      dockerfile: ./workspaces/page-webpack/Dockerfile
+    ports:
+      - "3004:3004"
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ./workspaces/page-webpack:/app
+      - /app/node_modules
+    depends_on:
+      - event-bus
+
+  shared-ui:
+    build:
+      context: .
+      dockerfile: ./workspaces/shared-ui/Dockerfile
+    ports:
+      - "3002:3002"
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ./workspaces/shared-ui:/app
+      - /app/node_modules

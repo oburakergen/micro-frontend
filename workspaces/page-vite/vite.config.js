@@ -1,6 +1,8 @@
+// workspaces/page-vite/vite.config.js
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import envCompatible from 'vite-plugin-env-compatible';
+import { resolve } from 'path';
 
 export default defineConfig({
   server: {
@@ -17,11 +19,28 @@ export default defineConfig({
     global: {},
     'process.browser': true,
   },
+  resolve: {
+    alias: {
+      'event-bus': resolve(__dirname, '../event-bus/src')
+    }
+  },
   build: {
     outDir: 'build',
     emptyOutDir: true,
+    lib: {
+      entry: resolve(__dirname, 'src/App.jsx'),
+      name: 'PageVite',
+      formats: ['es', 'umd'],
+      fileName: (format) => `page-vite.${format}.js`
+    },
     rollupOptions: {
+      external: ['react', 'react-dom', 'react-router-dom'],
       output: {
+        globals: {
+          react: 'React',
+          'react-dom': 'ReactDOM',
+          'react-router-dom': 'ReactRouterDOM'
+        },
         entryFileNames: 'static/js/[name].js',
         chunkFileNames: 'static/js/[name]-[hash].js',
         assetFileNames: assetInfo => {
@@ -39,6 +58,7 @@ export default defineConfig({
     },
   },
   optimizeDeps: {
+    include: ['react-router-dom'],
     esbuildOptions: {
       define: {
         global: 'globalThis',
