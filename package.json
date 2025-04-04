@@ -2,6 +2,12 @@
   "name": "micro-frontend",
   "version": "1.0.0",
   "description": "Micro frontend architecture with event-driven communication",
+  "workspaces": [,
+    "workspaces/shell-app",
+    "workspaces/page-vite",
+    "workspaces/page-webpack",
+    "workspaces/shared-ui"
+  ],
   "scripts": {
     "create:service": "node scripts/create-service.js",
     "start:shell": "cd workspaces/shell-app && npm run start:dev",

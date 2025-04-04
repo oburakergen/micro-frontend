@@ -1,0 +1,45 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "set port=3004 && react-app-rewired start",
+    "build": "react-app-rewired build",
+    "eject": "react-app-rewired eject",
+    "start:dev": "set port=3006 && react-app-rewired start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oburakergen/micro-frontend.git"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@automattic/webpack-rtl-plugin": "^6.0.0",
+    "assert": "^2.1.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "crypto-browserify": "^3.12.1",
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.5",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "prettier": "^3.5.3",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.4",
+    "vm-browserify": "^1.1.2",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-fix-style-only-entries": "^0.6.1"
+  },
+  "private": true
+}

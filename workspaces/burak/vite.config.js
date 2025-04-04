@@ -1,33 +1,26 @@
-// workspaces/shell-app/vite.config.js
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import envCompatible from 'vite-plugin-env-compatible';
-import { resolve } from 'path';
 
 export default defineConfig({
   server: {
-    port: 3000,
+    port: 3005,
     host: true,
-    proxy: {
-      '/page-vite': 'http://localhost:3003',
-      '/page-webpack': 'http://localhost:3004',
-      '/burak': 'http://localhost:3005',
-    },
   },
   envPrefix: 'REACT_APP_',
-  plugins: [envCompatible(), react()],
+  plugins: [
+    envCompatible(),
+    react()
+  ],
+  resolve: {
+    alias: {
+      'events-module': resolve(__dirname, '../event-bus/src/burakEvent.js'),
+    },
+  },
   define: {
     'process.env': process.env,
     global: {},
     'process.browser': true,
-  },
-  resolve: {
-    alias: {
-      'events-module': resolve(__dirname, '../event-bus/src'),
-      'events-module-burak': resolve(__dirname, '../event-bus/src/burakEvent.js'),
-      'page-vite': resolve(__dirname, '../page-vite/src'),
-      burak: resolve(__dirname, '../burak/src'),
-    },
   },
   build: {
     outDir: 'build',
@@ -51,11 +44,10 @@ export default defineConfig({
     },
   },
   optimizeDeps: {
-    include: ['react-router-dom', 'events'],
     esbuildOptions: {
       define: {
         global: 'globalThis',
       },
     },
-  },
+  }
 });

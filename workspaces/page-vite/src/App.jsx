@@ -38,10 +38,7 @@ const App = () => {
 
   return (
     <div className="page-vite-container">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/subpage" element={<Subpage />} />
-      </Routes>
+        asdasdasd
     </div>
   );
 };

@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Link, Navigate } from 'react-router-dom';
 import { eventBus, EVENT_TYPES } from 'events-module';
 
 const PageVite = lazy(() => import('page-vite/App'));
+const BurakApp = lazy(() => import('burak/App'));
 
 const Loading = () => <div>Loading application...</div>;
 
@@ -44,6 +45,9 @@ const App = () => {
               <li>
                 <Link to="/page-vite">Page Vite</Link>
               </li>
+              <li>
+                <Link to="/burak">Page Burak</Link>
+              </li>
             </ul>
           </nav>
         </header>
@@ -54,6 +58,7 @@ const App = () => {
               <Route path="/" element={<h2>Home Page</h2>} />
               <Route path="/page-vite/*" element={<PageVite />} />
               <Route path="*" element={<Navigate to="/" replace />} />
+              <Route path="/burak/*" element={<BurakApp />} />
             </Routes>
           </Suspense>
         </main>
