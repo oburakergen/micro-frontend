@@ -68,7 +68,7 @@ module.exports = {
         },
         'react-router-dom': {
           singleton: true,
-          requiredVersion: '^6.20.0',
+          requiredVersion: '6.10.0',
         },
         'react-redux': {
           singleton: true,
