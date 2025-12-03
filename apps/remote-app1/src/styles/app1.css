@@ -1,0 +1,42 @@
+.app1-container {
+  padding: 16px;
+  background: #f0fdf4;
+  border-radius: 8px;
+  min-height: 400px;
+}
+
+.app1-nav {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #22c55e;
+}
+
+.app1-nav a {
+  color: #166534;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.app1-nav a:hover {
+  background: #dcfce7;
+}
+
+.app1-content {
+  padding: 16px 0;
+}
+
+.app1-dashboard,
+.app1-settings {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.app1-dashboard h3,
+.app1-settings h3 {
+  color: #166534;
+  margin-bottom: 8px;
+}

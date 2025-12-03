@@ -4,7 +4,11 @@
   "description": "Modern Micro-Frontend Architecture Example built with React, Lerna Monorepo, Nx task orchestration, and Rspack ultra-fast bundler",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nx run-many --target=dev --parallel=3",
+    "build": "nx run-many --target=build --all",
+    "test": "nx run-many --target=test --all",
+    "lint": "nx run-many --target=lint --all",
+    "graph": "nx graph"
   },
   "repository": {
     "type": "git",
@@ -21,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/oburakergen/micro-frontend/issues"
   },
-  "homepage": "https://github.com/oburakergen/micro-frontend#readme"
+  "homepage": "https://github.com/oburakergen/micro-frontend#readme",
+  "devDependencies": {
+    "lerna": "^9.0.3",
+    "nx": "^22.1.3"
+  }
 }
