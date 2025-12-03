@@ -12,7 +12,7 @@
     "react-router-dom": "^6.20.0",
     "@micro-frontend/store": "*",
     "@micro-frontend/ui-components": "*",
-    "react-redux": "^9.0.0"
+    "react-redux": "7.2.9"
   },
   "devDependencies": {
     "@rspack/cli": "^1.0.0",

@@ -4,6 +4,9 @@ const path = require('path');
 module.exports = {
   entry: './src/index.tsx',
   mode: process.env.NODE_ENV || 'development',
+  builtins: {
+    css: {},
+  },
   devServer: {
     port: 3001,
     historyApiFallback: true,
@@ -43,7 +46,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        type: 'css',
+        use: ['style-loader', 'css-loader'],
       },
     ],
   },
@@ -69,11 +72,7 @@ module.exports = {
         },
         'react-redux': {
           singleton: true,
-          requiredVersion: '^9.0.0',
-        },
-        '@reduxjs/toolkit': {
-          singleton: true,
-          requiredVersion: '^2.0.0',
+          requiredVersion: '7.2.9',
         },
       },
     }),

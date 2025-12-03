@@ -1,6 +1,11 @@
 export { createStore } from './store';
-export type { RootState, AppDispatch } from './store';
+export type { RootState, AppDispatch, AppStore } from './store';
 export { useAppDispatch, useAppSelector } from './hooks';
 
-export { globalSlice, setUser, setTheme, toggleSidebar, logout } from './slices/globalSlice';
-export { notificationSlice, addNotification, removeNotification, clearNotifications } from './slices/notificationSlice';
+export { globalReducer, setUser, setTheme, toggleSidebar, logout } from './slices/globalSlice';
+export {
+    notificationReducer,
+    addNotification,
+    removeNotification,
+    clearNotifications,
+} from './slices/notificationSlice';

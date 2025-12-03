@@ -67,3 +67,4 @@ thumb
 sketch
 /.idea/
 /.nx/
+package-lock.json

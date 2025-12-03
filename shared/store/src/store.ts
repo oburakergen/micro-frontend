@@ -1,15 +1,14 @@
-import { configureStore } from '@reduxjs/toolkit';
-import { globalSlice } from './slices/globalSlice';
-import { notificationSlice } from './slices/notificationSlice';
+import { combineReducers, createStore as createReduxStore } from 'redux';
+import { globalReducer } from './slices/globalSlice';
+import { notificationReducer } from './slices/notificationSlice';
 
-export const createStore = () => {
-  return configureStore({
-    reducer: {
-      global: globalSlice.reducer,
-      notification: notificationSlice.reducer,
-    },
-  });
-};
+const rootReducer = combineReducers({
+    global: globalReducer,
+    notification: notificationReducer,
+});
 
-export type RootState = ReturnType<ReturnType<typeof createStore>['getState']>;
-export type AppDispatch = ReturnType<typeof createStore>['dispatch'];
+export const createStore = () => createReduxStore(rootReducer);
+
+export type RootState = ReturnType<typeof rootReducer>;
+export type AppStore = ReturnType<typeof createStore>;
+export type AppDispatch = AppStore['dispatch'];
