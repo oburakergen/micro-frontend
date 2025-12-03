@@ -1,0 +1,25 @@
+{
+  "name": "micro-frontend-example",
+  "version": "1.0.0",
+  "description": "Modern Micro-Frontend Architecture Example built with React, Lerna Monorepo, Nx task orchestration, and Rspack ultra-fast bundler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oburakergen/micro-frontend.git"
+  },
+  "keywords": [
+    "react",
+    "lerna",
+    "nx",
+    "rspack"
+  ],
+  "author": "burak ERGEN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oburakergen/micro-frontend/issues"
+  },
+  "homepage": "https://github.com/oburakergen/micro-frontend#readme"
+}
