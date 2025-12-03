@@ -1,5 +1,9 @@
 {
   "name": "micro-frontend-example",
+  "workspaces": [
+    "apps/*",
+    "shared/*"
+  ],
   "version": "1.0.0",
   "description": "Modern Micro-Frontend Architecture Example built with React, Lerna Monorepo, Nx task orchestration, and Rspack ultra-fast bundler",
   "main": "index.js",

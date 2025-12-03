@@ -1,21 +1,21 @@
 {
-  "name": "remote-app2",
+  "name": "phr",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/remote-app2/src",
+  "sourceRoot": "apps/phr/src",
   "projectType": "application",
   "targets": {
     "dev": {
       "executor": "nx:run-commands",
       "options": {
         "command": "rspack serve",
-        "cwd": "apps/remote-app2"
+        "cwd": "apps/phr"
       }
     },
     "build": {
       "executor": "nx:run-commands",
       "options": {
         "command": "rspack build",
-        "cwd": "apps/remote-app2"
+        "cwd": "apps/phr"
       },
       "dependsOn": ["^build"]
     },
@@ -23,7 +23,7 @@
       "executor": "nx:run-commands",
       "options": {
         "command": "eslint src/",
-        "cwd": "apps/remote-app2"
+        "cwd": "apps/phr"
       }
     }
   }

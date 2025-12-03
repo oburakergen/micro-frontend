@@ -28,22 +28,26 @@ module.exports = {
           loader: 'builtin:swc-loader',
           options: {
             jsc: {
-              parser: {
-                syntax: 'typescript',
-                tsx: true,
-              },
-              transform: {
-                react: {
-                  runtime: 'automatic',
-                },
-              },
+              parser: { syntax: 'typescript', tsx: true },
+              transform: { react: { runtime: 'automatic' } },
             },
           },
         },
       },
       {
         test: /\.css$/,
-        type: 'css',
+        use: [
+          'builtin:style-loader',
+          'builtin:css-loader',
+        ],
+      },
+      {
+        test: /\.scss$/,
+        use: [
+          'builtin:style-loader',
+          'builtin:css-loader',
+          'sass-loader',
+        ],
       },
     ],
   },

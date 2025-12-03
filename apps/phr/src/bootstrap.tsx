@@ -13,7 +13,7 @@ if (container) {
   root.render(
     <React.StrictMode>
       <Provider store={store}>
-        <BrowserRouter basename="/app2">
+        <BrowserRouter basename="/app3">
           <App />
         </BrowserRouter>
       </Provider>
