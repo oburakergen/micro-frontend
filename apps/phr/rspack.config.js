@@ -1,13 +1,13 @@
 const { ModuleFederationPlugin } = require('@rspack/core').container;
 const path = require('path');
 
-const TIGA_HEALTH_URL = process.env.TIGA_HEALTH_URL || 'https://phr-dev.tiga.health';
+const TIGA_HEALTH_URL = 'https://phr-dev.tiga.health';
 
 module.exports = {
   entry: './src/index.tsx',
   mode: process.env.NODE_ENV || 'development',
   devServer: {
-    port: 3003,
+    port: 3002,
     historyApiFallback: true,
     hot: true,
     headers: {
@@ -45,8 +45,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
-        type: 'javascript/auto',
+        type: 'css',
       },
     ],
   },

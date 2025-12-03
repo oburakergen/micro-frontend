@@ -36,18 +36,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: [
-          'builtin:style-loader',
-          'builtin:css-loader',
-        ],
-      },
-      {
-        test: /\.scss$/,
-        use: [
-          'builtin:style-loader',
-          'builtin:css-loader',
-          'sass-loader',
-        ],
+        type: 'css',
       },
     ],
   },
