@@ -13,7 +13,7 @@ export const Header: React.FC<HeaderProps> = ({ title, onNavigate }) => {
       <nav className="header-nav">
         <button onClick={() => onNavigate?.('/')}>Home</button>
         <button onClick={() => onNavigate?.('/app1')}>App 1</button>
-        <button onClick={() => onNavigate?.('/app2')}>App 2</button>
+        <button onClick={() => onNavigate?.('/phr')}>App 2</button>
       </nav>
     </header>
   );

@@ -57,7 +57,7 @@ module.exports = {
       name: 'tigaHealthPhr',
       filename: 'remoteEntry.js',
       remotes: {
-        tigaHealthPhr: `tigaHealthPhr@${TIGA_HEALTH_URL}/remoteEntry.js`,
+        tigaHealthPhr: `tigaHealthPhr@${TIGA_HEALTH_URL}/static/js/remoteEntry.js/remoteEntry.js`,
       },
       exposes: {
         './App': './src/App.tsx',
@@ -74,7 +74,7 @@ module.exports = {
         },
         'react-router-dom': {
           singleton: true,
-          requiredVersion: '^6.20.0',
+          requiredVersion: '6.10.0',
         },
         'react-redux': {
           singleton: true,

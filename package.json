@@ -8,7 +8,7 @@
   "description": "Modern Micro-Frontend Architecture Example built with React, Lerna Monorepo, Nx task orchestration, and Rspack ultra-fast bundler",
   "main": "index.js",
   "scripts": {
-    "start": "nx run-many --target=dev --parallel=2",
+    "start": "nx run-many --target=dev --parallel=3",
     "build": "nx run-many --target=build --all",
     "test": "nx run-many --target=test --all",
     "lint": "nx run-many --target=lint --all",

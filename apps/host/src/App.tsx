@@ -31,6 +31,14 @@ const App: React.FC = () => {
                 </ErrorBoundary>
               }
             />
+              <Route
+                  path="/phr/*"
+                  element={
+                      <ErrorBoundary>
+                          <Phr />
+                      </ErrorBoundary>
+                  }
+              />
           </Routes>
         </Suspense>
       </main>
