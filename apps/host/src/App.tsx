@@ -6,7 +6,7 @@ import ErrorBoundary from './components/ErrorBoundary';
 import Home from './pages/Home';
 
 const RemoteApp1 = React.lazy(() => import('remoteApp1/App'));
-const RemoteApp2 = React.lazy(() => import('remoteApp2/App'));
+const Phr = React.lazy(() => import('tigaHealthPhr/App'))
 
 const Loading = () => (
   <div className="loading">Loading...</div>
@@ -28,14 +28,6 @@ const App: React.FC = () => {
               element={
                 <ErrorBoundary>
                   <RemoteApp1 />
-                </ErrorBoundary>
-              }
-            />
-            <Route
-              path="/app2/*"
-              element={
-                <ErrorBoundary>
-                  <RemoteApp2 />
                 </ErrorBoundary>
               }
             />

@@ -20,7 +20,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath: 'http://localhost:3002/',
-    uniqueName: 'remoteApp3',
+    uniqueName: 'tigaHealthPhr',
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js', '.jsx'],
@@ -54,7 +54,7 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: 'remoteApp3',
+      name: 'tigaHealthPhr',
       filename: 'remoteEntry.js',
       remotes: {
         tigaHealthPhr: `tigaHealthPhr@${TIGA_HEALTH_URL}/remoteEntry.js`,

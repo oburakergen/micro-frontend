@@ -8,10 +8,11 @@
   "description": "Modern Micro-Frontend Architecture Example built with React, Lerna Monorepo, Nx task orchestration, and Rspack ultra-fast bundler",
   "main": "index.js",
   "scripts": {
-    "start": "nx run-many --target=dev --parallel=3",
+    "start": "nx run-many --target=dev --parallel=2",
     "build": "nx run-many --target=build --all",
     "test": "nx run-many --target=test --all",
     "lint": "nx run-many --target=lint --all",
+    "reset": "nx reset",
     "graph": "nx graph"
   },
   "repository": {
@@ -30,8 +31,21 @@
     "url": "https://github.com/oburakergen/micro-frontend/issues"
   },
   "homepage": "https://github.com/oburakergen/micro-frontend#readme",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.10.0",
+    "react-redux": "7.2.9"
+  },
   "devDependencies": {
     "lerna": "^9.0.3",
-    "nx": "^22.1.3"
+    "nx": "^22.1.3",
+    "@rspack/cli": "^1.0.0",
+    "@rspack/core": "^1.0.0",
+    "css-loader": "^6.8.1",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "style-loader": "^3.3.3",
+    "typescript": "^5.3.0"
   }
 }

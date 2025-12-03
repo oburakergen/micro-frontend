@@ -29,7 +29,7 @@ const TigaHealthWrapper: React.FC = () => {
     dispatch(addNotification({
       type: 'info',
       message: 'Tiga Health module loaded',
-      source: 'remote-app3',
+      source: 'tigaHealthPhr',
     }));
   }, [dispatch]);
 
