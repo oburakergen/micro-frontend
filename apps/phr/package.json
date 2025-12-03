@@ -1,5 +1,5 @@
 {
-  "name": "@micro-frontend/remote-app3",
+  "name": "@micro-frontend/phr",
   "version": "1.0.0",
   "scripts": {
     "dev": "rspack serve",

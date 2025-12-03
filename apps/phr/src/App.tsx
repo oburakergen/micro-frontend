@@ -23,7 +23,7 @@ const Overview: React.FC = () => (
 
 const App: React.FC = () => {
   const location = useLocation();
-  const basePath = location.pathname.startsWith('/app3') ? '/app3' : '';
+  const basePath = location.pathname.startsWith('/phr') ? '/phr' : '';
 
   return (
     <div className="app3-container">
