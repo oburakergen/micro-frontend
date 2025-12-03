@@ -16,7 +16,7 @@ const App: React.FC = () => {
       <div className="app3-content">
         <Suspense fallback={<Loading />}>
           <Routes>
-            <Route path="/" element={<TigaHealthWrapper />} />
+            <Route path="*" element={<TigaHealthWrapper />} />
           </Routes>
         </Suspense>
       </div>
