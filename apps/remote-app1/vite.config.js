@@ -20,9 +20,10 @@ export default defineConfig({
     host: true,
   },
   build: {
-    target: 'esnext',
-    outDir: 'dist',
     modulePreload: false,
+    target: "esnext",
+    minify: false,
+    cssCodeSplit: false,
   },
   plugins: [
     react(),

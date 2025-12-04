@@ -22,7 +22,6 @@ export default defineConfig({
   build: {
     target: 'esnext',
     outDir: 'dist',
-    modulePreload: false,
   },
   plugins: [
     react(),
@@ -30,7 +29,6 @@ export default defineConfig({
       name: 'host',
       remotes: {
         remoteApp1: 'http://127.0.0.1:3001/remoteEntry.js',
-        phrRemote: 'http://127.0.0.1:3000/remoteEntry.js',
       },
       shared: sharedDeps,
     }),

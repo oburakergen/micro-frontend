@@ -12,6 +12,7 @@
     "build": "nx run-many --target=build --all",
     "test": "nx run-many --target=test --all",
     "lint": "nx run-many --target=lint --all",
+    "preview": "nx run-many --target=preview --all",
     "reset": "nx reset",
     "graph": "nx graph"
   },
