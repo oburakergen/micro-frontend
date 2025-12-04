@@ -1,0 +1,1572 @@
+{
+  "_Overlay-CK6O43qj.js": {
+    "file": "static/js/Overlay-CK6O43qj.js",
+    "name": "Overlay",
+    "imports": [
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_common-DEUjWhYV.js"
+    ]
+  },
+  "_Table-BjqSWWQP.js": {
+    "file": "static/js/Table-BjqSWWQP.js",
+    "name": "Table",
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js"
+    ]
+  },
+  "_ToggleButtonGroup-BpTfK3cD.js": {
+    "file": "static/js/ToggleButtonGroup-BpTfK3cD.js",
+    "name": "ToggleButtonGroup",
+    "imports": [
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_common-DEUjWhYV.js"
+    ]
+  },
+  "__commonjsHelpers-Dvrxj_Zk.js": {
+    "file": "static/js/_commonjsHelpers-Dvrxj_Zk.js",
+    "name": "_commonjsHelpers"
+  },
+  "_allergy-intolerance-api-BJKp79-f.js": {
+    "file": "static/js/allergy-intolerance-api-BJKp79-f.js",
+    "name": "allergy-intolerance-api",
+    "imports": [
+      "_common-DEUjWhYV.js"
+    ]
+  },
+  "_animated-CKDtMyWa.js": {
+    "file": "static/js/animated-CKDtMyWa.js",
+    "name": "animated",
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js"
+    ],
+    "dynamicImports": [
+      "_pdfmake-axZ0ubGp.js",
+      "node_modules/@amcharts/amcharts4/.internal/pdfmake/vfs_fonts.js",
+      "node_modules/@amcharts/amcharts4/.internal/canvg/index.js",
+      "_xlsx.core.min-DyWXT3q_.js"
+    ]
+  },
+  "_bon-marrow-blood-donation-api-B0Cr9OgK.js": {
+    "file": "static/js/bon-marrow-blood-donation-api-B0Cr9OgK.js",
+    "name": "bon-marrow-blood-donation-api",
+    "imports": [
+      "_common-DEUjWhYV.js"
+    ]
+  },
+  "_common-DEUjWhYV.js": {
+    "file": "static/js/common-DEUjWhYV.js",
+    "name": "common",
+    "imports": [
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js"
+    ],
+    "dynamicImports": [
+      "src/pages/dashboard/index.jsx",
+      "src/pages/profile/index.jsx",
+      "src/pages/vaccinations/index.jsx",
+      "src/pages/condition/index.jsx",
+      "src/pages/observation/index.jsx",
+      "src/pages/test-lab-result/index.jsx",
+      "src/pages/allergy/index.jsx",
+      "src/pages/diagnostic-reports/index.jsx",
+      "src/pages/procedure/index.jsx",
+      "src/pages/clinical-documents/index.jsx",
+      "src/pages/care-plan/index.jsx",
+      "src/pages/encounter-visit/index.jsx",
+      "src/pages/medications/index.jsx",
+      "src/pages/smart-assistant/main.jsx",
+      "src/pages/audit-logs/index.jsx",
+      "src/pages/emergency-notes/index.jsx",
+      "src/pages/my-documents/index.jsx",
+      "src/pages/bon-marrow-blood-donation/index.jsx",
+      "src/pages/sharing/index.jsx",
+      "src/pages/appointments/index.jsx",
+      "src/pages/notification/index.jsx",
+      "src/pages/announcement-news/index.jsx",
+      "src/pages/surveys-and-questionnaires/index.jsx",
+      "src/pages/embedded-test/index.jsx",
+      "src/pages/educational-material/index.jsx",
+      "src/pages/self-added-vitals/index.jsx"
+    ],
+    "css": [
+      "static/css/common-DJCpoVr1.css"
+    ]
+  },
+  "_common-DJCpoVr1.css": {
+    "file": "static/css/common-DJCpoVr1.css",
+    "src": "_common-DJCpoVr1.css"
+  },
+  "_create-vaccinations-pdf-B-eQiwkB.js": {
+    "file": "static/js/create-vaccinations-pdf-B-eQiwkB.js",
+    "name": "create-vaccinations-pdf",
+    "imports": [
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_vaccinations-api-DFpRhW7d.js",
+      "_common-DEUjWhYV.js"
+    ]
+  },
+  "_dashboard-api-CaDzrB6T.js": {
+    "file": "static/js/dashboard-api-CaDzrB6T.js",
+    "name": "dashboard-api",
+    "imports": [
+      "_common-DEUjWhYV.js"
+    ]
+  },
+  "_emergency-notes-api-Dn82ZTBL.js": {
+    "file": "static/js/emergency-notes-api-Dn82ZTBL.js",
+    "name": "emergency-notes-api",
+    "imports": [
+      "_common-DEUjWhYV.js"
+    ]
+  },
+  "_evaluate-facility-DfJoYFUi.js": {
+    "file": "static/js/evaluate-facility-DfJoYFUi.js",
+    "name": "evaluate-facility",
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_procedure-card-CLlm88W2.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_index.modern-DaA0Mkma.js",
+      "_dashboard-api-CaDzrB6T.js"
+    ]
+  },
+  "_index-BK3OJpM4.js": {
+    "file": "static/js/index-BK3OJpM4.js",
+    "name": "index",
+    "isDynamicEntry": true,
+    "imports": [
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ]
+  },
+  "_index-Bg_CeKcb.css": {
+    "file": "static/css/index-Bg_CeKcb.css",
+    "src": "_index-Bg_CeKcb.css"
+  },
+  "_index-BmhV2uC-.js": {
+    "file": "static/js/index-BmhV2uC-.js",
+    "name": "index",
+    "imports": [
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_common-DEUjWhYV.js"
+    ]
+  },
+  "_index-D64Eo7B9.css": {
+    "file": "static/css/index-D64Eo7B9.css",
+    "src": "_index-D64Eo7B9.css"
+  },
+  "_index-DQu3sY6K.js": {
+    "file": "static/js/index-DQu3sY6K.js",
+    "name": "index",
+    "isDynamicEntry": true,
+    "imports": [
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js"
+    ]
+  },
+  "_index.cjs-BUheoAVG.js": {
+    "file": "static/js/index.cjs-BUheoAVG.js",
+    "name": "index.cjs",
+    "imports": [
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js"
+    ]
+  },
+  "_index.modern-BcxX8faq.js": {
+    "file": "static/js/index.modern-BcxX8faq.js",
+    "name": "index.modern",
+    "imports": [
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js"
+    ]
+  },
+  "_index.modern-CaeBwUa5.js": {
+    "file": "static/js/index.modern-CaeBwUa5.js",
+    "name": "index.modern",
+    "imports": [
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_common-DEUjWhYV.js",
+      "_Overlay-CK6O43qj.js"
+    ]
+  },
+  "_index.modern-DaA0Mkma.js": {
+    "file": "static/js/index.modern-DaA0Mkma.js",
+    "name": "index.modern",
+    "imports": [
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_common-DEUjWhYV.js",
+      "_index.modern-BcxX8faq.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_Overlay-CK6O43qj.js"
+    ]
+  },
+  "_index.modern-DlizPJF-.js": {
+    "file": "static/js/index.modern-DlizPJF-.js",
+    "name": "index.modern",
+    "imports": [
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_common-DEUjWhYV.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_index.modern-BcxX8faq.js",
+      "_Overlay-CK6O43qj.js"
+    ],
+    "css": [
+      "static/css/index-D64Eo7B9.css"
+    ]
+  },
+  "_init-select-box-B47yySkU.js": {
+    "file": "static/js/init-select-box-B47yySkU.js",
+    "name": "init-select-box",
+    "imports": [
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_common-DEUjWhYV.js"
+    ]
+  },
+  "_observation-api-DOIGADGD.js": {
+    "file": "static/js/observation-api-DOIGADGD.js",
+    "name": "observation-api",
+    "imports": [
+      "_common-DEUjWhYV.js"
+    ]
+  },
+  "_other-diagnostic-reports-DeqqnXzL.js": {
+    "file": "static/js/other-diagnostic-reports-DeqqnXzL.js",
+    "name": "other-diagnostic-reports",
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_index.modern-DaA0Mkma.js",
+      "_procedure-ordered-list-IFoFyNe4.js"
+    ]
+  },
+  "_partial-body-mass-index-BwAaVxj0.js": {
+    "file": "static/js/partial-body-mass-index-BwAaVxj0.js",
+    "name": "partial-body-mass-index",
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_procedure-card-CLlm88W2.js",
+      "_dashboard-api-CaDzrB6T.js"
+    ]
+  },
+  "_partial-maps-CIGW-MKW.css": {
+    "file": "static/css/partial-maps-CIGW-MKW.css",
+    "src": "_partial-maps-CIGW-MKW.css"
+  },
+  "_partial-maps-aMoiqSbV.js": {
+    "file": "static/js/partial-maps-aMoiqSbV.js",
+    "name": "partial-maps",
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "css": [
+      "static/css/partial-maps-CIGW-MKW.css"
+    ]
+  },
+  "_partial-timeline-reccomendations-C_oVBFS-.js": {
+    "file": "static/js/partial-timeline-reccomendations-C_oVBFS-.js",
+    "name": "partial-timeline-reccomendations",
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js"
+    ]
+  },
+  "_partial-vitals-card-p6WXWyIj.js": {
+    "file": "static/js/partial-vitals-card-p6WXWyIj.js",
+    "name": "partial-vitals-card",
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js"
+    ]
+  },
+  "_pdfmake-axZ0ubGp.js": {
+    "file": "static/js/pdfmake-axZ0ubGp.js",
+    "name": "pdfmake",
+    "isDynamicEntry": true,
+    "imports": [
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ]
+  },
+  "_preload-helper-Cyd4LpGB.js": {
+    "file": "static/js/preload-helper-Cyd4LpGB.js",
+    "name": "preload-helper"
+  },
+  "_procedure-card-CLlm88W2.js": {
+    "file": "static/js/procedure-card-CLlm88W2.js",
+    "name": "procedure-card",
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_Table-BjqSWWQP.js",
+      "src/pages/test-lab-result/test-lab-result-list.jsx",
+      "src/pages/procedure/procedure-list.jsx",
+      "src/pages/diagnostic-reports/radiology.jsx",
+      "_other-diagnostic-reports-DeqqnXzL.js"
+    ]
+  },
+  "_procedure-ordered-list-IFoFyNe4.js": {
+    "file": "static/js/procedure-ordered-list-IFoFyNe4.js",
+    "name": "procedure-ordered-list",
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_index.modern-DaA0Mkma.js"
+    ]
+  },
+  "_test-lab-result-api-D8qjqByn.js": {
+    "file": "static/js/test-lab-result-api-D8qjqByn.js",
+    "name": "test-lab-result-api",
+    "imports": [
+      "_common-DEUjWhYV.js"
+    ]
+  },
+  "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js": {
+    "file": "static/js/tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+    "name": "tigaHealthPhr__loadShare__react__loadShare__",
+    "imports": [
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js"
+    ]
+  },
+  "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js": {
+    "file": "static/js/tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+    "name": "tigaHealthPhr__mf_v__runtimeInit__mf_v__"
+  },
+  "_vaccinations-api-DFpRhW7d.js": {
+    "file": "static/js/vaccinations-api-DFpRhW7d.js",
+    "name": "vaccinations-api",
+    "imports": [
+      "_common-DEUjWhYV.js"
+    ]
+  },
+  "_xlsx.core.min-DyWXT3q_.js": {
+    "file": "static/js/xlsx.core.min-DyWXT3q_.js",
+    "name": "xlsx.core.min",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ]
+  },
+  "index.html": {
+    "file": "static/js/index.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_index.cjs-BUheoAVG.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js"
+    ]
+  },
+  "node_modules/@amcharts/amcharts4/.internal/canvg/index.js": {
+    "file": "static/js/index-B2j8eueM.js",
+    "name": "index",
+    "src": "node_modules/@amcharts/amcharts4/.internal/canvg/index.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "_preload-helper-Cyd4LpGB.js"
+    ]
+  },
+  "node_modules/@amcharts/amcharts4/.internal/pdfmake/vfs_fonts.js": {
+    "file": "static/js/vfs_fonts-BbT5ejxm.js",
+    "name": "vfs_fonts",
+    "src": "node_modules/@amcharts/amcharts4/.internal/pdfmake/vfs_fonts.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/__mf__virtual/tigaHealthPhr__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "static/js/hostInit-CLIOdE4H.js",
+    "name": "hostInit",
+    "src": "node_modules/__mf__virtual/tigaHealthPhr__H_A_I__hostAutoInit__H_A_I__.js",
+    "isEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-REMOTE_ENTRY_ID"
+    ]
+  },
+  "node_modules/react-router-dom/dist/index.js": {
+    "file": "static/js/index-DMbPDx-O.js",
+    "name": "index",
+    "src": "node_modules/react-router-dom/dist/index.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js"
+    ]
+  },
+  "src/RemoteApp.jsx": {
+    "file": "static/js/RemoteApp-Bhkwse-2.js",
+    "name": "RemoteApp",
+    "src": "src/RemoteApp.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "_preload-helper-Cyd4LpGB.js"
+    ]
+  },
+  "src/assets/img/organ-donor-card.jpg": {
+    "file": "static/media/organ-donor-card-oNjsdmaM.jpg",
+    "src": "src/assets/img/organ-donor-card.jpg"
+  },
+  "src/pages/allergy/allergy-intolerance.jsx": {
+    "file": "static/js/allergy-intolerance-RaDf9U3Q.js",
+    "name": "allergy-intolerance",
+    "src": "src/pages/allergy/allergy-intolerance.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/allergy/diagnosis-allergy-list.jsx",
+      "src/pages/allergy/other-allergy-list.jsx"
+    ]
+  },
+  "src/pages/allergy/diagnosis-allergy-list.jsx": {
+    "file": "static/js/diagnosis-allergy-list-CN3G3Q5U.js",
+    "name": "diagnosis-allergy-list",
+    "src": "src/pages/allergy/diagnosis-allergy-list.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_index.modern-DaA0Mkma.js",
+      "_allergy-intolerance-api-BJKp79-f.js",
+      "_index.modern-BcxX8faq.js",
+      "_Table-BjqSWWQP.js",
+      "_ToggleButtonGroup-BpTfK3cD.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js",
+      "_Overlay-CK6O43qj.js"
+    ]
+  },
+  "src/pages/allergy/index.jsx": {
+    "file": "static/js/index-DtFEiCTp.js",
+    "name": "index",
+    "src": "src/pages/allergy/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/allergy/allergy-intolerance.jsx"
+    ]
+  },
+  "src/pages/allergy/other-allergy-list.jsx": {
+    "file": "static/js/other-allergy-list-y0SnKuk_.js",
+    "name": "other-allergy-list",
+    "src": "src/pages/allergy/other-allergy-list.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_index.modern-DlizPJF-.js",
+      "_allergy-intolerance-api-BJKp79-f.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js",
+      "_index.modern-BcxX8faq.js",
+      "_Overlay-CK6O43qj.js"
+    ],
+    "css": [
+      "static/css/index-Bg_CeKcb.css"
+    ]
+  },
+  "src/pages/announcement-news/announcement-notification-page.jsx": {
+    "file": "static/js/announcement-notification-page-BW3ZwQAT.js",
+    "name": "announcement-notification-page",
+    "src": "src/pages/announcement-news/announcement-notification-page.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js"
+    ]
+  },
+  "src/pages/announcement-news/index.jsx": {
+    "file": "static/js/index-DelrfxwS.js",
+    "name": "index",
+    "src": "src/pages/announcement-news/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/announcement-news/announcement-notification-page.jsx"
+    ]
+  },
+  "src/pages/appointments/appointments-list.jsx": {
+    "file": "static/js/appointments-list-D-j10xSu.js",
+    "name": "appointments-list",
+    "src": "src/pages/appointments/appointments-list.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_partial-maps-aMoiqSbV.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js"
+    ]
+  },
+  "src/pages/appointments/index.jsx": {
+    "file": "static/js/index-D6WQ7cpM.js",
+    "name": "index",
+    "src": "src/pages/appointments/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/appointments/appointments-list.jsx"
+    ]
+  },
+  "src/pages/audit-logs/audit-logs-list.jsx": {
+    "file": "static/js/audit-logs-list-BhNY7vLF.js",
+    "name": "audit-logs-list",
+    "src": "src/pages/audit-logs/audit-logs-list.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_index.modern-DlizPJF-.js",
+      "_Table-BjqSWWQP.js",
+      "_ToggleButtonGroup-BpTfK3cD.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js",
+      "_index.modern-BcxX8faq.js",
+      "_Overlay-CK6O43qj.js"
+    ]
+  },
+  "src/pages/audit-logs/index.jsx": {
+    "file": "static/js/index-BJrLfBdI.js",
+    "name": "index",
+    "src": "src/pages/audit-logs/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/audit-logs/audit-logs-list.jsx"
+    ]
+  },
+  "src/pages/bon-marrow-blood-donation/blood-donation.jsx": {
+    "file": "static/js/blood-donation-DHxRi0CB.js",
+    "name": "blood-donation",
+    "src": "src/pages/bon-marrow-blood-donation/blood-donation.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_index.modern-CaeBwUa5.js",
+      "_bon-marrow-blood-donation-api-B0Cr9OgK.js",
+      "_init-select-box-B47yySkU.js",
+      "_dashboard-api-CaDzrB6T.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js",
+      "_Overlay-CK6O43qj.js"
+    ]
+  },
+  "src/pages/bon-marrow-blood-donation/bon-marrow-blood-donation.jsx": {
+    "file": "static/js/bon-marrow-blood-donation-YpGsa6Pu.js",
+    "name": "bon-marrow-blood-donation",
+    "src": "src/pages/bon-marrow-blood-donation/bon-marrow-blood-donation.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/bon-marrow-blood-donation/bon-marrow.jsx",
+      "src/pages/bon-marrow-blood-donation/blood-donation.jsx"
+    ]
+  },
+  "src/pages/bon-marrow-blood-donation/bon-marrow.jsx": {
+    "file": "static/js/bon-marrow-CIdJQo4Y.js",
+    "name": "bon-marrow",
+    "src": "src/pages/bon-marrow-blood-donation/bon-marrow.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_index.modern-CaeBwUa5.js",
+      "_bon-marrow-blood-donation-api-B0Cr9OgK.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js",
+      "_Overlay-CK6O43qj.js"
+    ]
+  },
+  "src/pages/bon-marrow-blood-donation/index.jsx": {
+    "file": "static/js/index-xetKPhIO.js",
+    "name": "index",
+    "src": "src/pages/bon-marrow-blood-donation/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/bon-marrow-blood-donation/bon-marrow-blood-donation.jsx"
+    ]
+  },
+  "src/pages/care-plan/health-care-plan.jsx": {
+    "file": "static/js/health-care-plan-vDdBKxMk.js",
+    "name": "health-care-plan",
+    "src": "src/pages/care-plan/health-care-plan.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_Table-BjqSWWQP.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js"
+    ]
+  },
+  "src/pages/care-plan/index.jsx": {
+    "file": "static/js/index-BC3_hejD.js",
+    "name": "index",
+    "src": "src/pages/care-plan/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/care-plan/health-care-plan.jsx"
+    ]
+  },
+  "src/pages/clinical-documents/clinical-documents-list.jsx": {
+    "file": "static/js/clinical-documents-list-CQvj7gUy.js",
+    "name": "clinical-documents-list",
+    "src": "src/pages/clinical-documents/clinical-documents-list.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_index.modern-DlizPJF-.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js",
+      "_index.modern-BcxX8faq.js",
+      "_Overlay-CK6O43qj.js"
+    ]
+  },
+  "src/pages/clinical-documents/index.jsx": {
+    "file": "static/js/index-BtUJmv7F.js",
+    "name": "index",
+    "src": "src/pages/clinical-documents/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/clinical-documents/clinical-documents-list.jsx"
+    ]
+  },
+  "src/pages/condition/conditionTable.jsx": {
+    "file": "static/js/conditionTable-DNh7misE.js",
+    "name": "conditionTable",
+    "src": "src/pages/condition/conditionTable.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_index.modern-DaA0Mkma.js",
+      "_Table-BjqSWWQP.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js",
+      "_index.modern-BcxX8faq.js",
+      "_Overlay-CK6O43qj.js"
+    ]
+  },
+  "src/pages/condition/index.jsx": {
+    "file": "static/js/index-hGBVLGe7.js",
+    "name": "index",
+    "src": "src/pages/condition/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/condition/conditionTable.jsx"
+    ]
+  },
+  "src/pages/dashboard/index.jsx": {
+    "file": "static/js/index-CusynyjT.js",
+    "name": "index",
+    "src": "src/pages/dashboard/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_partial-body-mass-index-BwAaVxj0.js",
+      "_procedure-card-CLlm88W2.js",
+      "_procedure-ordered-list-IFoFyNe4.js",
+      "_vaccinations-api-DFpRhW7d.js",
+      "_create-vaccinations-pdf-B-eQiwkB.js",
+      "_evaluate-facility-DfJoYFUi.js",
+      "_partial-maps-aMoiqSbV.js",
+      "_dashboard-api-CaDzrB6T.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js",
+      "_Table-BjqSWWQP.js",
+      "src/pages/test-lab-result/test-lab-result-list.jsx",
+      "_index.modern-DaA0Mkma.js",
+      "_index.modern-BcxX8faq.js",
+      "_Overlay-CK6O43qj.js",
+      "_test-lab-result-api-D8qjqByn.js",
+      "_animated-CKDtMyWa.js",
+      "src/pages/procedure/procedure-list.jsx",
+      "src/pages/diagnostic-reports/radiology.jsx",
+      "_other-diagnostic-reports-DeqqnXzL.js"
+    ],
+    "assets": [
+      "static/media/organ-donor-card-oNjsdmaM.jpg"
+    ]
+  },
+  "src/pages/diagnostic-reports/index.jsx": {
+    "file": "static/js/index-D9l3NePk.js",
+    "name": "index",
+    "src": "src/pages/diagnostic-reports/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_other-diagnostic-reports-DeqqnXzL.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_index.modern-DaA0Mkma.js",
+      "_index.modern-BcxX8faq.js",
+      "_Overlay-CK6O43qj.js",
+      "_procedure-ordered-list-IFoFyNe4.js"
+    ],
+    "dynamicImports": [
+      "src/pages/diagnostic-reports/radiology.jsx"
+    ]
+  },
+  "src/pages/diagnostic-reports/radiology.jsx": {
+    "file": "static/js/radiology-87NqUUlx.js",
+    "name": "radiology",
+    "src": "src/pages/diagnostic-reports/radiology.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_procedure-ordered-list-IFoFyNe4.js",
+      "src/pages/procedure/procedure-list.jsx",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js",
+      "_index.modern-DaA0Mkma.js",
+      "_index.modern-BcxX8faq.js",
+      "_Overlay-CK6O43qj.js",
+      "_Table-BjqSWWQP.js"
+    ]
+  },
+  "src/pages/educational-material/educational-material.jsx": {
+    "file": "static/js/educational-material-ChCxRLzZ.js",
+    "name": "educational-material",
+    "src": "src/pages/educational-material/educational-material.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_emergency-notes-api-Dn82ZTBL.js",
+      "_index-BmhV2uC-.js",
+      "_Table-BjqSWWQP.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js"
+    ]
+  },
+  "src/pages/educational-material/index.jsx": {
+    "file": "static/js/index-CmFdD086.js",
+    "name": "index",
+    "src": "src/pages/educational-material/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/educational-material/educational-material.jsx"
+    ]
+  },
+  "src/pages/embedded-test/index.jsx": {
+    "file": "static/js/index-CNqndBYn.js",
+    "name": "index",
+    "src": "src/pages/embedded-test/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js"
+    ]
+  },
+  "src/pages/emergency-notes/emergency-notes.jsx": {
+    "file": "static/js/emergency-notes-BXH47N58.js",
+    "name": "emergency-notes",
+    "src": "src/pages/emergency-notes/emergency-notes.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_index.modern-DlizPJF-.js",
+      "_emergency-notes-api-Dn82ZTBL.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js",
+      "_index.modern-BcxX8faq.js",
+      "_Overlay-CK6O43qj.js"
+    ]
+  },
+  "src/pages/emergency-notes/index.jsx": {
+    "file": "static/js/index-Y0QJba3L.js",
+    "name": "index",
+    "src": "src/pages/emergency-notes/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/emergency-notes/emergency-notes.jsx"
+    ]
+  },
+  "src/pages/encounter-visit/encounter-visit-index.jsx": {
+    "file": "static/js/encounter-visit-index-pbOuWih0.js",
+    "name": "encounter-visit-index",
+    "src": "src/pages/encounter-visit/encounter-visit-index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_evaluate-facility-DfJoYFUi.js",
+      "_procedure-card-CLlm88W2.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js",
+      "_index.modern-DaA0Mkma.js",
+      "_index.modern-BcxX8faq.js",
+      "_Overlay-CK6O43qj.js",
+      "_dashboard-api-CaDzrB6T.js",
+      "_Table-BjqSWWQP.js",
+      "src/pages/test-lab-result/test-lab-result-list.jsx",
+      "_test-lab-result-api-D8qjqByn.js",
+      "_animated-CKDtMyWa.js",
+      "src/pages/procedure/procedure-list.jsx",
+      "_procedure-ordered-list-IFoFyNe4.js",
+      "src/pages/diagnostic-reports/radiology.jsx",
+      "_other-diagnostic-reports-DeqqnXzL.js"
+    ]
+  },
+  "src/pages/encounter-visit/index.jsx": {
+    "file": "static/js/index-CvZITeUO.js",
+    "name": "index",
+    "src": "src/pages/encounter-visit/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/encounter-visit/encounter-visit-index.jsx"
+    ]
+  },
+  "src/pages/medications/index.jsx": {
+    "file": "static/js/index-DRjOIXRx.js",
+    "name": "index",
+    "src": "src/pages/medications/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/medications/prescription-medication-index.jsx"
+    ]
+  },
+  "src/pages/medications/medication-list.jsx": {
+    "file": "static/js/medication-list-BcVGWhjE.js",
+    "name": "medication-list",
+    "src": "src/pages/medications/medication-list.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_index.modern-DaA0Mkma.js",
+      "_Table-BjqSWWQP.js",
+      "_ToggleButtonGroup-BpTfK3cD.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js",
+      "_index.modern-BcxX8faq.js",
+      "_Overlay-CK6O43qj.js"
+    ]
+  },
+  "src/pages/medications/prescription-list.jsx": {
+    "file": "static/js/prescription-list-CHgXTJ9T.js",
+    "name": "prescription-list",
+    "src": "src/pages/medications/prescription-list.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_index.modern-DaA0Mkma.js",
+      "_Table-BjqSWWQP.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js",
+      "_index.modern-BcxX8faq.js",
+      "_Overlay-CK6O43qj.js"
+    ]
+  },
+  "src/pages/medications/prescription-medication-index.jsx": {
+    "file": "static/js/prescription-medication-index-BHGmQBKT.js",
+    "name": "prescription-medication-index",
+    "src": "src/pages/medications/prescription-medication-index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/medications/medication-list.jsx",
+      "src/pages/medications/prescription-list.jsx"
+    ]
+  },
+  "src/pages/my-documents/index.jsx": {
+    "file": "static/js/index-BUfqlq9p.js",
+    "name": "index",
+    "src": "src/pages/my-documents/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/my-documents/my-documents.jsx"
+    ]
+  },
+  "src/pages/my-documents/my-documents.jsx": {
+    "file": "static/js/my-documents-D6daxy0B.js",
+    "name": "my-documents",
+    "src": "src/pages/my-documents/my-documents.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_index-BmhV2uC-.js",
+      "_Table-BjqSWWQP.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js"
+    ]
+  },
+  "src/pages/notification/index.jsx": {
+    "file": "static/js/index-CCoIQSis.js",
+    "name": "index",
+    "src": "src/pages/notification/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/notification/notification-list.jsx"
+    ]
+  },
+  "src/pages/notification/notification-list.jsx": {
+    "file": "static/js/notification-list-BlktpMpY.js",
+    "name": "notification-list",
+    "src": "src/pages/notification/notification-list.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js"
+    ]
+  },
+  "src/pages/observation/index.jsx": {
+    "file": "static/js/index-ADmtTIjB.js",
+    "name": "index",
+    "src": "src/pages/observation/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/observation/vital-signs/vital-signs-history.jsx"
+    ]
+  },
+  "src/pages/observation/vital-signs/vital-signs-history.jsx": {
+    "file": "static/js/vital-signs-history-BdYxvKwY.js",
+    "name": "vital-signs-history",
+    "src": "src/pages/observation/vital-signs/vital-signs-history.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_index.modern-DlizPJF-.js",
+      "_observation-api-DOIGADGD.js",
+      "_partial-vitals-card-p6WXWyIj.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js",
+      "_index.modern-BcxX8faq.js",
+      "_Overlay-CK6O43qj.js"
+    ]
+  },
+  "src/pages/procedure/index.jsx": {
+    "file": "static/js/index-swkElAGe.js",
+    "name": "index",
+    "src": "src/pages/procedure/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_procedure-ordered-list-IFoFyNe4.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_index.modern-DaA0Mkma.js",
+      "_index.modern-BcxX8faq.js",
+      "_Overlay-CK6O43qj.js"
+    ],
+    "dynamicImports": [
+      "src/pages/procedure/procedure-list.jsx"
+    ]
+  },
+  "src/pages/procedure/procedure-list.jsx": {
+    "file": "static/js/procedure-list-DeVh27s1.js",
+    "name": "procedure-list",
+    "src": "src/pages/procedure/procedure-list.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_Table-BjqSWWQP.js",
+      "_procedure-ordered-list-IFoFyNe4.js",
+      "_index.modern-DaA0Mkma.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js",
+      "_index.modern-BcxX8faq.js",
+      "_Overlay-CK6O43qj.js"
+    ]
+  },
+  "src/pages/profile/index.jsx": {
+    "file": "static/js/index-D465Besn.js",
+    "name": "index",
+    "src": "src/pages/profile/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_Table-BjqSWWQP.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js"
+    ]
+  },
+  "src/pages/self-added-vitals/index.jsx": {
+    "file": "static/js/index-B29hO09u.js",
+    "name": "index",
+    "src": "src/pages/self-added-vitals/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_partial-vitals-card-p6WXWyIj.js",
+      "_animated-CKDtMyWa.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js"
+    ]
+  },
+  "src/pages/sensor-data/index.jsx": {
+    "file": "static/js/index-x1EywkPN.js",
+    "name": "index",
+    "src": "src/pages/sensor-data/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_animated-CKDtMyWa.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js"
+    ]
+  },
+  "src/pages/sharing/index.jsx": {
+    "file": "static/js/index-Cojws4Ra.js",
+    "name": "index",
+    "src": "src/pages/sharing/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/sharing/sharing-list.jsx"
+    ]
+  },
+  "src/pages/sharing/my-dependents.jsx": {
+    "file": "static/js/my-dependents-WeEUfwcG.js",
+    "name": "my-dependents",
+    "src": "src/pages/sharing/my-dependents.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_Table-BjqSWWQP.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js"
+    ]
+  },
+  "src/pages/sharing/my-sharing-modal.jsx": {
+    "file": "static/js/my-sharing-modal-CehqmkUt.js",
+    "name": "my-sharing-modal",
+    "src": "src/pages/sharing/my-sharing-modal.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_index.modern-CaeBwUa5.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js",
+      "_Overlay-CK6O43qj.js"
+    ]
+  },
+  "src/pages/sharing/my-sharing-view-modal.jsx": {
+    "file": "static/js/my-sharing-view-modal-BblfHbVO.js",
+    "name": "my-sharing-view-modal",
+    "src": "src/pages/sharing/my-sharing-view-modal.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_Table-BjqSWWQP.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js"
+    ]
+  },
+  "src/pages/sharing/my-sharing.jsx": {
+    "file": "static/js/my-sharing-DXWjfSRO.js",
+    "name": "my-sharing",
+    "src": "src/pages/sharing/my-sharing.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_Table-BjqSWWQP.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/sharing/my-sharing-modal.jsx",
+      "src/pages/sharing/my-sharing-view-modal.jsx"
+    ]
+  },
+  "src/pages/sharing/shared-with-me.jsx": {
+    "file": "static/js/shared-with-me-qahsZtU0.js",
+    "name": "shared-with-me",
+    "src": "src/pages/sharing/shared-with-me.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_Table-BjqSWWQP.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js"
+    ]
+  },
+  "src/pages/sharing/sharing-list.jsx": {
+    "file": "static/js/sharing-list-D_hwwbuJ.js",
+    "name": "sharing-list",
+    "src": "src/pages/sharing/sharing-list.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/sharing/shared-with-me.jsx",
+      "src/pages/sharing/my-dependents.jsx",
+      "src/pages/sharing/my-sharing.jsx"
+    ]
+  },
+  "src/pages/smart-assistant/index.jsx": {
+    "file": "static/js/index-DWm36nng.js",
+    "name": "index",
+    "src": "src/pages/smart-assistant/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_procedure-card-CLlm88W2.js",
+      "_index.modern-BcxX8faq.js",
+      "_animated-CKDtMyWa.js",
+      "_partial-body-mass-index-BwAaVxj0.js",
+      "_dashboard-api-CaDzrB6T.js",
+      "_init-select-box-B47yySkU.js",
+      "_observation-api-DOIGADGD.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js",
+      "_Table-BjqSWWQP.js",
+      "src/pages/test-lab-result/test-lab-result-list.jsx",
+      "_index.modern-DaA0Mkma.js",
+      "_Overlay-CK6O43qj.js",
+      "_test-lab-result-api-D8qjqByn.js",
+      "src/pages/procedure/procedure-list.jsx",
+      "_procedure-ordered-list-IFoFyNe4.js",
+      "src/pages/diagnostic-reports/radiology.jsx",
+      "_other-diagnostic-reports-DeqqnXzL.js"
+    ]
+  },
+  "src/pages/smart-assistant/main.jsx": {
+    "file": "static/js/main-CyrJYBXQ.js",
+    "name": "main",
+    "src": "src/pages/smart-assistant/main.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/smart-assistant/index.jsx",
+      "src/pages/sensor-data/index.jsx"
+    ]
+  },
+  "src/pages/surveys-and-questionnaires/index.jsx": {
+    "file": "static/js/index-BLd8cMei.js",
+    "name": "index",
+    "src": "src/pages/surveys-and-questionnaires/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js"
+    ]
+  },
+  "src/pages/test-lab-result/index.jsx": {
+    "file": "static/js/index-jx9Qm31x.js",
+    "name": "index",
+    "src": "src/pages/test-lab-result/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_preload-helper-Cyd4LpGB.js",
+      "_procedure-ordered-list-IFoFyNe4.js",
+      "src/pages/procedure/procedure-list.jsx",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_index.modern-DaA0Mkma.js",
+      "_index.modern-BcxX8faq.js",
+      "_Overlay-CK6O43qj.js",
+      "_Table-BjqSWWQP.js"
+    ],
+    "dynamicImports": [
+      "src/pages/test-lab-result/test-lab-result-list.jsx",
+      "src/pages/test-lab-result/test-lab-result-list-ordered.jsx"
+    ]
+  },
+  "src/pages/test-lab-result/test-lab-result-list-ordered.jsx": {
+    "file": "static/js/test-lab-result-list-ordered-DNF7DTmw.js",
+    "name": "test-lab-result-list-ordered",
+    "src": "src/pages/test-lab-result/test-lab-result-list-ordered.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_index.modern-DaA0Mkma.js",
+      "_test-lab-result-api-D8qjqByn.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js",
+      "_index.modern-BcxX8faq.js",
+      "_Overlay-CK6O43qj.js"
+    ]
+  },
+  "src/pages/test-lab-result/test-lab-result-list.jsx": {
+    "file": "static/js/test-lab-result-list-CHepZLah.js",
+    "name": "test-lab-result-list",
+    "src": "src/pages/test-lab-result/test-lab-result-list.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_index.modern-DaA0Mkma.js",
+      "_test-lab-result-api-D8qjqByn.js",
+      "_animated-CKDtMyWa.js",
+      "_Overlay-CK6O43qj.js",
+      "_Table-BjqSWWQP.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js",
+      "_index.modern-BcxX8faq.js"
+    ]
+  },
+  "src/pages/vaccinations/adult-preventative.jsx": {
+    "file": "static/js/adult-preventative-hG9MPWsE.js",
+    "name": "adult-preventative",
+    "src": "src/pages/vaccinations/adult-preventative.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_Table-BjqSWWQP.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js"
+    ]
+  },
+  "src/pages/vaccinations/index.jsx": {
+    "file": "static/js/index-ClyqmPzm.js",
+    "name": "index",
+    "src": "src/pages/vaccinations/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/vaccinations/vaccinations-index.jsx"
+    ]
+  },
+  "src/pages/vaccinations/vaccination-reccomendations.jsx": {
+    "file": "static/js/vaccination-reccomendations-jFGOoYef.js",
+    "name": "vaccination-reccomendations",
+    "src": "src/pages/vaccinations/vaccination-reccomendations.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_Table-BjqSWWQP.js",
+      "_partial-timeline-reccomendations-C_oVBFS-.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js"
+    ],
+    "css": [
+      "static/css/index-Bg_CeKcb.css"
+    ]
+  },
+  "src/pages/vaccinations/vaccinations-card-adult.jsx": {
+    "file": "static/js/vaccinations-card-adult-BrstSJhm.js",
+    "name": "vaccinations-card-adult",
+    "src": "src/pages/vaccinations/vaccinations-card-adult.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_vaccinations-api-DFpRhW7d.js",
+      "_create-vaccinations-pdf-B-eQiwkB.js",
+      "_Table-BjqSWWQP.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js"
+    ]
+  },
+  "src/pages/vaccinations/vaccinations-card-childhood.jsx": {
+    "file": "static/js/vaccinations-card-childhood-DSTeKkCc.js",
+    "name": "vaccinations-card-childhood",
+    "src": "src/pages/vaccinations/vaccinations-card-childhood.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_partial-timeline-reccomendations-C_oVBFS-.js",
+      "_vaccinations-api-DFpRhW7d.js",
+      "_create-vaccinations-pdf-B-eQiwkB.js",
+      "_Table-BjqSWWQP.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js"
+    ]
+  },
+  "src/pages/vaccinations/vaccinations-index.jsx": {
+    "file": "static/js/vaccinations-index-DJNikjPx.js",
+    "name": "vaccinations-index",
+    "src": "src/pages/vaccinations/vaccinations-index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js",
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js"
+    ],
+    "dynamicImports": [
+      "src/pages/vaccinations/vaccinations-list.jsx",
+      "src/pages/vaccinations/vaccinations-card-childhood.jsx",
+      "src/pages/vaccinations/vaccinations-card-adult.jsx",
+      "src/pages/vaccinations/vaccination-reccomendations.jsx",
+      "src/pages/vaccinations/adult-preventative.jsx"
+    ]
+  },
+  "src/pages/vaccinations/vaccinations-list.jsx": {
+    "file": "static/js/vaccinations-list-C3yYSjGl.js",
+    "name": "vaccinations-list",
+    "src": "src/pages/vaccinations/vaccinations-list.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_common-DEUjWhYV.js",
+      "_tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js",
+      "_index.modern-DaA0Mkma.js",
+      "_vaccinations-api-DFpRhW7d.js",
+      "_Table-BjqSWWQP.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js",
+      "__commonjsHelpers-Dvrxj_Zk.js",
+      "_preload-helper-Cyd4LpGB.js",
+      "_index.modern-BcxX8faq.js",
+      "_Overlay-CK6O43qj.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID": {
+    "file": "static/js/remoteEntry.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.cjs-BUheoAVG.js",
+      "virtual:mf-exposes",
+      "_preload-helper-Cyd4LpGB.js",
+      "_tigaHealthPhr__mf_v__runtimeInit__mf_v__-DESDpvoH.js"
+    ],
+    "dynamicImports": [
+      "_index-BK3OJpM4.js",
+      "_index-DQu3sY6K.js",
+      "node_modules/react-router-dom/dist/index.js"
+    ]
+  },
+  "virtual:mf-exposes": {
+    "file": "static/js/virtualExposes-B8jDcioo.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes",
+    "isEntry": true,
+    "imports": [
+      "_preload-helper-Cyd4LpGB.js"
+    ],
+    "dynamicImports": [
+      "src/RemoteApp.jsx"
+    ]
+  }
+}

@@ -1,4 +1,4 @@
-const { ModuleFederationPlugin } = require('@rspack/core').container;
+import { rspack } from '@rspack/core';
 const path = require('path');
 
 module.exports = {
@@ -44,11 +44,11 @@ module.exports = {
     ],
   },
   plugins: [
-    new ModuleFederationPlugin({
+    new rspack.container.ModuleFederationPlugin({
       name: 'host',
       remotes: {
         remoteApp1: 'remoteApp1@http://localhost:3001/remoteEntry.js',
-        tigaHealthPhr: 'tigaHealthPhr@http://localhost:3002/remoteEntry.js',
+        phrRemote: "tigaHealthPhr@http://localhost:3000/build/static/js/remoteEntry.js"
       },
       shared: {
         react: {

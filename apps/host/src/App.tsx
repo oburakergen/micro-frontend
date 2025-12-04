@@ -6,7 +6,7 @@ import ErrorBoundary from './components/ErrorBoundary';
 import Home from './pages/Home';
 
 const RemoteApp1 = React.lazy(() => import('remoteApp1/App'));
-const Phr = React.lazy(() => import('tigaHealthPhr/App'))
+const Phr = React.lazy(() => import('phrRemote/App'))
 
 const Loading = () => (
   <div className="loading">Loading...</div>

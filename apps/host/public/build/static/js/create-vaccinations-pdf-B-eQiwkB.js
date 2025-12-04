@@ -1,0 +1,1 @@
+import{t as a}from"./tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js";import{V as t}from"./vaccinations-api-DFpRhW7d.js";import{k as o}from"./common-DEUjWhYV.js";const r=()=>{const{setPageLoading:r}=a.useContext(o);return[(a,o)=>{r(!0),t.vaccinationCardPdf(o,t=>{t&&a(`data:application/pdf;charset=UTF-8;base64,${t}`),r(!1)})}]};export{r as C};

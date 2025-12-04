@@ -1,0 +1,1 @@
+import{h as a,i as t}from"./common-DEUjWhYV.js";const i=new class extends a{constructor(){super(`${t.API}/phr`)}getList(a){super.get("immunization",a,!1)}getDetail(a,t){super.get(`immunization/${a}`,t,!1)}getCard(a,t){super.get(`vaccination/card?vaccinationType=${a}`,t,!1)}vaccinationCardPdf(a,t){super.get(`api/vaccination-card-pdf?vaccinationType=${a}`,t,!1)}};export{i as V};

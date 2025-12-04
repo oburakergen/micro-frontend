@@ -1,0 +1,1 @@
+import"./tigaHealthPhr__loadShare__react__loadShare__-PlbDaU_c.js";import{h as o,i as t}from"./common-DEUjWhYV.js";const e=new class extends o{constructor(){super(`${t.API}/phr`)}CountryOpt(o){super.get("location/country",o)}getLookup(o,t){super.get(`lookup?tableList=${o}`,t,!1)}},r=(o,t,r)=>(e.getLookup(o,o=>{o&&t(o)}),r);export{r as I};
