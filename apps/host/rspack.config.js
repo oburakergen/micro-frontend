@@ -1,4 +1,4 @@
-import { rspack } from '@rspack/core';
+const { ModuleFederationPlugin } = require('@rspack/core').container;
 const path = require('path');
 
 module.exports = {
@@ -44,7 +44,7 @@ module.exports = {
     ],
   },
   plugins: [
-    new rspack.container.ModuleFederationPlugin({
+    new ModuleFederationPlugin({
       name: 'host',
       remotes: {
         remoteApp1: 'remoteApp1@http://localhost:3001/remoteEntry.js',
