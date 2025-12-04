@@ -8,7 +8,7 @@ module.exports = {
     css: {},
   },
   devServer: {
-    port: 3000,
+    port: 3002,
     historyApiFallback: true,
     hot: true,
     headers: {
@@ -17,8 +17,9 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: 'http://localhost:3000/',
+    publicPath: 'http://localhost:3002/',
     uniqueName: 'host',
+    type: 'esm',
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js', '.jsx'],
@@ -48,7 +49,7 @@ module.exports = {
       name: 'host',
       remotes: {
         remoteApp1: 'remoteApp1@http://localhost:3001/remoteEntry.js',
-        phrRemote: "tigaHealthPhr@https://phr-dev.tiga.health/static/js/remoteEntry.js"
+        phrRemote: "tigaHealthPhr@http://localhost:3000/build/static/js/remoteEntry.js"
       },
       shared: {
         react: {
