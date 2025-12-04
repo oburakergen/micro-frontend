@@ -6,7 +6,7 @@ import ErrorBoundary from './components/ErrorBoundary';
 import Home from './pages/Home';
 
 const RemoteApp1 = React.lazy(() => import('remoteApp1/App'));
-// const Phr = React.lazy(() => import('phrRemote/App'))
+const Phr = React.lazy(() => import('phrRemote/App'))
 
 const Loading = () => (
   <div className="loading">Loading...</div>
@@ -31,14 +31,14 @@ const App: React.FC = () => {
                 </ErrorBoundary>
               }
             />
-              {/*<Route*/}
-              {/*    path="/phr/*"*/}
-              {/*    element={*/}
-              {/*        <ErrorBoundary>*/}
-              {/*            <Phr />*/}
-              {/*        </ErrorBoundary>*/}
-              {/*    }*/}
-              {/*/>*/}
+              <Route
+                  path="/phr/*"
+                  element={
+                      <ErrorBoundary>
+                          <Phr />
+                      </ErrorBoundary>
+                  }
+              />
           </Routes>
         </Suspense>
       </main>

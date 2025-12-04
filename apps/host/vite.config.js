@@ -28,7 +28,16 @@ export default defineConfig({
     federation({
       name: 'host',
       remotes: {
-        remoteApp1: 'http://127.0.0.1:3001/remoteEntry.js',
+        remoteApp1: {
+          type: 'module',
+          name: 'remoteApp1',
+          entry: 'http://127.0.0.1:3001/remoteEntry.js',
+        },
+        phrRemote: {
+          type: 'module',
+          name: 'phrRemote',
+          entry: 'http://127.0.0.1:3000/remoteEntry.js',
+        },
       },
       shared: sharedDeps,
     }),
