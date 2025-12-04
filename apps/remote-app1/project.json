@@ -7,14 +7,14 @@
     "dev": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "rspack serve",
+        "command": "vite dev",
         "cwd": "apps/remote-app1"
       }
     },
     "build": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "rspack build",
+        "command": "vite build",
         "cwd": "apps/remote-app1"
       },
       "dependsOn": ["^build"]
