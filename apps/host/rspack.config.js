@@ -48,7 +48,7 @@ module.exports = {
       name: 'host',
       remotes: {
         remoteApp1: 'remoteApp1@http://localhost:3001/remoteEntry.js',
-        phrRemote: "tigaHealthPhr@http://localhost:3000/build/static/js/remoteEntry.js"
+        phrRemote: "tigaHealthPhr@https://phr-dev.tiga.health/static/js/remoteEntry.js"
       },
       shared: {
         react: {
