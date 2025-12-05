@@ -1,5 +1,5 @@
 import React from "react";
-import "./dropdown.scss";
+import "./dropdown.css";
 
 export default function ServicesDropdown({ data }: any) {
   return (

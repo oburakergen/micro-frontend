@@ -1,20 +1,24 @@
 import React, { useState } from "react";
-import "./navbar.scss";
+import "./navbar.css";
 import ServicesDropdown from "./ServicesDropdown";
 import ProfileDropdown from "./ProfileDropdown";
 import { servicesData } from "../data/servicesData";
+import { useNavigate, useLocation } from "react-router-dom";
 import {useAppSelector} from "@micro-frontend/store";
-import {useNavigate} from "react-router-dom";
 
 export default function Navbar() {
     const navigate = useNavigate();
+    const location = useLocation();
     const [open, setOpen] = useState(null);
+    const { user } = useAppSelector((state) => state.global);
 
-  const user = {
+  const user2 = {
     name: "Yavuz Olgun",
     avatar:
       "https://img.freepik.com/premium-vector/default-avatar-profile-icon-social-media-user-image-gray-avatar-icon-blank-profile-silhouette-vector-illustration_561158-3407.jpg?w=360",
   };
+
+  console.log("navbar", user);
 
   const handleOpen = (type: any) => {
     setOpen(type);
@@ -33,16 +37,17 @@ export default function Navbar() {
           </div>
         </div>
         <nav className="nav-links" onMouseLeave={handleClose}>
-          <button className="active" onClick={() => navigate('/')}>
-            HOME
+            <button className={location.pathname === '/app1' ? 'active' : ''} onClick={() => navigate('/app1')}>Home</button>
+
+            <button className={location.pathname === '/' ? 'active' : ''} onClick={() => navigate('/')}>
+            Phr
           </button>
-          <button onClick={() => navigate('/about')}>ABOUT</button>
 
           <div
             className="dropdown-trigger"
             onMouseEnter={() => handleOpen("services")}
           >
-            <button onClick={() => navigate('/services')}>SERVICES</button>
+            <button className={location.pathname === '/services' ? 'active' : ''} onClick={() => navigate('/services')}>SERVICES</button>
             {open === "services" && <ServicesDropdown data={servicesData} />}
           </div>
         </nav>
@@ -52,12 +57,12 @@ export default function Navbar() {
             onMouseEnter={() => handleOpen("profile")}
           >
             <img
-              src={user.avatar}
-              alt={user.name}
+              src={user2.avatar}
+              alt={user2.name}
               onMouseLeave={handleClose}
               className="avatar-mini"
             />
-            {open === "profile" && <ProfileDropdown user={user} />}
+              <ProfileDropdown user={user2} />
           </div>
         </div>
       </div>
