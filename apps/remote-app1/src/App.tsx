@@ -21,7 +21,7 @@ const Dashboard: React.FC = () => {
       <h3>App 1 - Dashboard</h3>
       <Card title="User Info">
         {user ? (
-          <p>Welcome, {user.name}!</p>
+          <p>Welcome, {user.email}!</p>
         ) : (
           <p>Please login from the host app</p>
         )}

@@ -4,29 +4,17 @@
   padding: 0;
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  line-height: 1.6;
-}
-
 .app-container {
   min-height: 100vh;
 }
 
-.theme-light {
-  background-color: #f3f4f6;
-  color: #1f2937;
+.header {
+    position: relative;
+    z-index: 9999999;
 }
 
-.theme-dark {
-  background-color: #1f2937;
-  color: #f3f4f6;
-}
-
-.main-content {
-  padding: 24px;
-  max-width: 1200px;
-  margin: 0 auto;
+.header-title {
+    color: white !important;
 }
 
 .loading {

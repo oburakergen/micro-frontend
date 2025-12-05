@@ -1,9 +1,8 @@
-import React, { Suspense } from 'react';
+import React, {Suspense, useEffect} from 'react';
 import { Routes, Route, useNavigate } from 'react-router-dom';
-import { Header } from '@micro-frontend/ui-components';
-import { useAppSelector } from '@micro-frontend/store';
+import { Navbar } from '@micro-frontend/ui-components';
+import {setUser, useAppDispatch, useAppSelector} from '@micro-frontend/store';
 import ErrorBoundary from './components/ErrorBoundary';
-import Home from './pages/Home';
 
 const RemoteApp1 = React.lazy(() => import('remoteApp1/App'));
 const Phr = React.lazy(() => import('phrRemote/App'))
@@ -13,29 +12,42 @@ const Loading = () => (
 );
 
 const App: React.FC = () => {
-  const navigate = useNavigate();
   const { theme } = useAppSelector((state) => state.global);
+    const dispatch = useAppDispatch();
+
+    useEffect(() => {
+        const handler = (e: any) => {
+            const data = e.detail;
+
+            dispatch(setUser(data.user));
+            console.log(data);
+
+        };
+
+        window.addEventListener("remote-login-success", handler);
+
+        return () => window.removeEventListener("remote-login-success", handler);
+    }, []);
 
   return (
     <div className={`app-container theme-${theme}`}>
-      <Header title="Micro Frontend" onNavigate={navigate} />
+      <Navbar />
       <main className="main-content">
         <Suspense fallback={<Loading />}>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route
-              path="/app1/*"
-              element={
-                <ErrorBoundary>
-                  <RemoteApp1 />
-                </ErrorBoundary>
-              }
-            />
               <Route
-                  path="/phr/*"
+                  path="/*"
                   element={
                       <ErrorBoundary>
                           <Phr />
+                      </ErrorBoundary>
+                  }
+              />
+              <Route
+                  path="/app1/*"
+                  element={
+                      <ErrorBoundary>
+                          <RemoteApp1 />
                       </ErrorBoundary>
                   }
               />

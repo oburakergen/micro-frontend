@@ -11,12 +11,12 @@ const sharedDeps = {
 
 export default defineConfig({
   server: {
-    port: 3002,
+    port: 3000,
     host: true,
     cors: true,
   },
   preview: {
-    port: 3002,
+    port: 3000,
     host: true,
   },
   build: {
@@ -36,7 +36,7 @@ export default defineConfig({
         phrRemote: {
           type: 'module',
           name: 'phrRemote',
-          entry: 'http://127.0.0.1:3000/remoteEntry.js',
+          entry: 'http://127.0.0.1:3002/remoteEntry.js',
         },
       },
       shared: sharedDeps,

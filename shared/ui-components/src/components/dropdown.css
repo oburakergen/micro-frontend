@@ -1,0 +1,106 @@
+.dropdown-menu {
+  background-color: #f5f6fb;
+  border: 1px solid #c8ceed;
+  border-radius: 10px;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  padding: 20px;
+  min-width: 420px;
+  z-index: 9999;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.18);
+  animation: fadeIn 0.15s ease;
+}
+
+.services-dropdown {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+
+.services-dropdown .services-title {
+  color: #939bc5;
+  width: 100%;
+  margin-bottom: 12px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.services-dropdown .services-list {
+  list-style: none;
+  padding: 0;
+}
+
+.services-dropdown .services-list .services-item {
+  padding: 8px 0;
+  font-size: 14px;
+  color: #222;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.15s;
+  color: #24356a;
+  line-height: 16px;
+}
+
+.services-dropdown .services-list .services-item:hover {
+  color: #0b74ff;
+  transform: translateX(3px);
+}
+
+.services-dropdown .services-list .services-item .icon {
+  font-size: 16px;
+  width: 20px;
+  filter: brightness(82%) saturate(98%);
+}
+
+/* --- Profile Dropdown --- */
+
+.profile-dropdown {
+  min-width: 220px;
+  right: 0;
+  left: auto;
+}
+
+.profile-dropdown .profile-management {
+  gap: 12px;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.profile-dropdown .profile-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.profile-dropdown .profile-header .profile-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.profile-dropdown .profile-header .profile-name {
+  font-weight: 600;
+  color: #333;
+  font-size: 15px;
+}
+
+.profile-dropdown .logout {
+  padding: 12px 4px;
+  margin-top: 12px;
+  cursor: pointer;
+  color: #d33;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: 0.2s ease;
+}
+
+.profile-dropdown .logout:hover {
+  background: rgba(255, 0, 0, 0.06);
+  color: #a30000;
+}
+

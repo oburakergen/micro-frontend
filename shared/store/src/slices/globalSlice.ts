@@ -1,11 +1,6 @@
-export interface User {
-  id: string;
-  name: string;
-  email: string;
-}
 
 export interface GlobalState {
-    user: User | null;
+    user: any;
     isAuthenticated: boolean;
     theme: 'light' | 'dark';
     sidebarOpen: boolean;
@@ -23,7 +18,7 @@ const SET_THEME = 'global/SET_THEME';
 const TOGGLE_SIDEBAR = 'global/TOGGLE_SIDEBAR';
 const LOGOUT = 'global/LOGOUT';
 
-export const setUser = (user: User | null) => ({
+export const setUser = (user: any) => ({
     type: SET_USER as typeof SET_USER,
     payload: user,
 });

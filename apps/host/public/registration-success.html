@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="/fav.png" />
+    <link rel="stylesheet" href="/tiga-icon/css/tiga-fonts.css" />
+    <link rel="stylesheet" href="/css/TigaHealthMain.css" />
+    <link
+      href="/css/theme.min.css"
+      type="text/css"
+      rel="stylesheet"
+      class="theme-stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#2c7be5" />
+    <title>Registration Success</title>
+  </head>
+
+  <body>
+    <div class="ErrorLayout">
+      <a href="/"><img src="logo.svg" style="height: 84px;" /></a>
+      <div class="SuccessContent">
+        <div class="SuccessHeader">
+          <i class="ico-check"></i>
+          <p>Registration Success</p>
+        </div>
+        <div class="successBody" id="successBody" style="padding: 40px; text-align: center;">
+          <!-- Content will be dynamically replaced here -->
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var userAgent = navigator.userAgent;
+      function isMobileDevice() {
+        return (typeof window.orientation !== "undefined") || (userAgent.indexOf('IEMobile') !== -1) || userAgent.match(/Android/i) || userAgent.match(/webOS/i) || userAgent.match(/iPhone/i) || userAgent.match(/iPad/i) || userAgent.match(/iPod/i) || userAgent.match(/BlackBerry/i) || userAgent.match(/Windows Phone/i);
+      }
+
+      function updateContent() {
+        var successBody = document.getElementById("successBody");
+        var content = "";
+
+        if (isMobileDevice()) {
+          content += `<p>You have successfully created your account </p>`;
+          content += "<p>To log in using the PHR application please close this window and <b style='font-weight: 600 !important'>open the PHR application.</b></p>";
+          content += "<p>Alternatively, to log in using the internet browser please <a href='/'>click here</a> to continue.</p>";
+        } else {
+          content += "<p>You have successfully created your account </p>";
+          content += "<a class='btn btn-danger btn-sm mt-3' href='/'>Login to PHR</a>";
+        }
+
+        successBody.innerHTML = content;
+      }
+
+      window.onload = function() {
+        updateContent();
+      };
+    </script>
+  </body>
+</html>
