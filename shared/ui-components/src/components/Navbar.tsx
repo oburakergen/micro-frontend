@@ -33,7 +33,7 @@ export default function Navbar() {
       <div className="nav-container">
         <div className="nav-left">
           <div className="logo">
-            <img src="/moph/logo-white.svg" alt="Matias Logo" className="logo-icon" />
+            <img src="/moph/logo-white.svg" alt="Logo" className="logo-icon" />
           </div>
         </div>
         <nav className="nav-links" onMouseLeave={handleClose}>

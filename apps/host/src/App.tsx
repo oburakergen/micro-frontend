@@ -33,7 +33,7 @@ const App: React.FC = () => {
     <div className={`app-container theme-${theme}`}>
       <Navbar />
       <main className="main-content">
-        <Suspense fallback={<Loading />}>
+        <Suspense fallback={null}>
           <Routes>
               <Route
                   path="/*"
